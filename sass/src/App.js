@@ -1,8 +1,8 @@
 import React from "react";
-import "./css/normalize.css";
-import "./css/estilos.css";
+import "./css/estilos.scss";
 import "./css/media-queries.css";
 import FotoPost from "./imagens/foto-post.jpg";
+import Logo from "./imagens/logo.png";
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <header>
         <div class="container">
           <h1>
-            <img src="imagens/logo.png" alt="Logotipo Apeperia" />
+            <img src={Logo} alt="Logotipo Apeperia" />
           </h1>
-          <nav class="menu-opcoes">
+          <nav class="menu-principal">
             <ul>
               <li>
                 <a href="#">sobre</a>
@@ -174,7 +174,7 @@ function App() {
           <h2 class="titulo-secao">Blog</h2>
           <section class="post-destaque">
             <article>
-              <img src="imagens/foto-post.jpg" alt="" />
+              <img src={FotoPost} alt="" />
               <h3>iOS ou Android?</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -237,7 +237,7 @@ function App() {
 
       <footer>
         <div class="container">
-          <img src="imagens/logo.png" alt="" />
+          <img src={Logo} alt="" />
           <nav class="menu-rodape">
             <ul>
               <li>
