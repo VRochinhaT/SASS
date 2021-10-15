@@ -3,6 +3,10 @@ $cor-padrao: darken(#c24e4b, 10);
 $cor-auxiliar: lighten(#1e2c35, 5);
 $cor-branca: #fff;
 
+$md-mobile: "(max-width: 980px)";
+
+$tamanho-da-fonte-padrao: 16px;
+
 /* Color functions
 adjust-hue();
 saturate(); 

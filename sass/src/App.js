@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/estilos.scss";
-import "./css/media-queries.css";
 import FotoPost from "./imagens/foto-post.jpg";
 import Logo from "./imagens/logo.png";
 
